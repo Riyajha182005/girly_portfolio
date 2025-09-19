@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riya Jha - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header/Navbar -->
+    <header class="navbar">
+        <div class="container">
+            <div class="navbar-content">
+                <div class="navbar-brand">
+                    <h2>Riya Jha</h2>
+                </div>
+                <nav class="navbar-menu" id="navbarMenu">
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#achievements" class="nav-link">Internships</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </nav>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle mobile menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-image">
+                    <div class="profile-placeholder">
+                        <div class="profile-avatar" >RJ</div>
+                        <img src="WhatsApp Image 2025-09-18 at 11.52.08 PM (1).jpeg" alt="Riya Jha" class="profile-photo">
+
+                    </div>
+                </div>
+                <h1 class="hero-title">Riya Jha</h1>
+                <p class="hero-subtitle">Aspiring Software Engineer | AI Enthusiast</p>
+                <button class="btn btn--primary hero-cta" onclick="scrollToSection('projects')">View My Projects</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am a passionate computer science student with a strong foundation in programming and web development. I enjoy building projects that solve real-world problems and am particularly interested in artificial intelligence and machine learning. I love participating in hackathons and continuously learning new technologies.</p>
+                </div>
+                <div class="education-timeline">
+                    <h3 class="timeline-title">Education</h3>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>Bachelor of Technology</h4>
+                            <p class="timeline-field">Information Technology</p>
+                            <p class="timeline-institution"> 
+                                Dr. Akhilesh Das Gupta Institute of Professional Studies,
+                               Affilated with Guru Gobind Singh Indraprastha University</p>
+                            <span class="timeline-year">2023-2027</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title">Programming Languages</h3>
+                    <div class="skill-badges">
+                        <span class="skill-badge">C</span>
+                        <span class="skill-badge">C++</span>
+                        <span class="skill-badge">Python</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">Web Technologies</h3>
+                    <div class="skill-badges">
+                        <span class="skill-badge">HTML</span>
+                        <span class="skill-badge">CSS</span>
+                        <span class="skill-badge">JavaScript</span>
+                        <span class="skill-badge">React</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">Frameworks & Database</h3>
+                    <div class="skill-badges">
+                        <span class="skill-badge">Tailwind CSS</span>
+                        <span class="skill-badge">Bootstrap</span>
+                        <span class="skill-badge">MySQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">Tools</h3>
+                    <div class="skill-badges">
+                        <span class="skill-badge">GitHub</span>
+                        <span class="skill-badge">VS Code</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder">🎵</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Music Player</h3>
+                        <p class="project-description">A web-based music player with intuitive controls, playlist management, and responsive design for seamless music experience.</p>
+                        <div class="project-tech">
+                            <span class="tech-badge">HTML</span>
+                            <span class="tech-badge">CSS</span>
+                            <span class="tech-badge">JavaScript</span>
+                        </div>
+                        <a href="https://riyajha182005.github.io/musicplayer/" class="btn btn--outline project-link" target="_blank">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+    <div class="project-image">🧥✨</div>
+    <div class="project-content">
+        <h3 class="project-title">The Invisible Cloak</h3>
+        <p>
+            Make yourself magically invisible using Python and OpenCV! Detects a red cloak and lets you disappear in video, just like Harry Potter.
+        </p>
+        <div class="project-tech">
+            <span class="tech-badge">Python</span>
+            <span class="tech-badge">OpenCV</span>
+        </div>
+        <a href="https://github.com/Riyajha182005/The_invisible_cloak" class="btn btn--outline project-link" target="_blank">View Project</a>
+    </div>
+</div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder">🚂</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Train Ticket Booking App</h3>
+                        <p class="project-description">A comprehensive ticket booking system with user authentication, seat selection, and booking management features.</p>
+                        <div class="project-tech">
+                            <span class="tech-badge">HTML</span>
+                            <span class="tech-badge">CSS</span>
+                            <span class="tech-badge">JavaScript</span>
+                        </div>
+                        <a href="https://riyajha182005.github.io/train-book-ticket/" class="btn btn--outline project-link" target="_blank">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder">🎨</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">UsabilityHub Clone</h3>
+                        <p class="project-description">A pixel-perfect clone of UsabilityHub website focusing on responsive design and modern UI/UX principles.</p>
+                        <div class="project-tech">
+                            <span class="tech-badge">HTML</span>
+                            <span class="tech-badge">CSS</span>
+                        </div>
+                        <a href="https://riyajha182005.github.io/usuablityHub/" class="btn btn--outline project-link" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section class="section achievements" id="achievements">
+        <div class="container">
+            <h2 class="section-title">Internships & Achievements</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+   
+    <div class="achievement-content">
+        <h3 class="achievement-title">Summer Internship – Generative AI & Prompt Engineering</h3>
+        <p>
+            <strong class="achievement-type">Sansoftech Services Private Limited</strong><br>
+            Jun 2025 – Jul 2025 · 2 months<br>
+            Delhi, India
+        </p>
+        <p class="achievement-description">
+            Worked on advanced topics in Generative AI and Prompt Engineering, enhancing practical skills through real-world projects and collaborative team tasks.
+        </p>
+        <a href="https://www.linkedin.com/company/sansofttech-services-pvt--ltd/"
+           class="btn btn--outline project-link">
+           Company Profile
+        </a>
+    </div>
+</div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">🏆</div>
+                    <h3 class="achievement-title">Google Girl Hackathon</h3>
+                    <p class="achievement-type">Participation • 2024</p>
+                    <p class="achievement-description">Participated in Google's hackathon focusing on women in tech</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">🚀</div>
+                    <h3 class="achievement-title">Smart India Hackathon</h3>
+                    <p class="achievement-type">Participation • 2024</p>
+                    <p class="achievement-description">Competed in national-level hackathon for innovative solutions</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">📜</div>
+                    <h3 class="achievement-title">TCS iON Certification</h3>
+                    <p class="achievement-type">Certificate • 2024</p>
+                    <p class="achievement-description">Completed TCS iON certification program</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">🤖</div>
+                    <h3 class="achievement-title">HP AI Certificate</h3>
+                    <p class="achievement-type">Certificate • 2024</p>
+                    <p class="achievement-description">Earned HP AI certification demonstrating AI/ML skills</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>Feel free to reach out for collaborations, opportunities, or just to say hello!</p>
+                    <div class="social-links">
+                        <a href="riya2311jha@gmail.com" class="social-link" target="_blank">
+                            <span class="social-icon">📧</span>
+                            <span>riya2311jha@gmail.com</span>
+                        </a>
+                        <a href="https://github.com/Riyajha182005" class="social-link" target="_blank">
+                            <span class="social-icon">💻</span>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/riya-jha-41a003314/" class="social-link" target="_blank">
+                            <span class="social-icon">💼</span>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://leetcode.com/u/Riyajha18/" class="social-link" target="_blank">
+                            <span class="social-icon">⚡</span>
+                            <span>LeetCode</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Riya Jha. Made with ❤️</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
